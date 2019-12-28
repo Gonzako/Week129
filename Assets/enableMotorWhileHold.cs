@@ -18,8 +18,8 @@ public class enableMotorWhileHold : MonoBehaviour
     #endregion
 
     #region Public Methods
-    public static Action onMotorStart;
-    public static Action onMotorEnd;
+    public event Action onMotorStart;
+    public event Action onMotorEnd;
     #endregion
 
     #region Private Methods
@@ -40,11 +40,12 @@ public class enableMotorWhileHold : MonoBehaviour
         {
             onMotorStart?.Invoke();
             hj.useMotor = true;
-        } else if (Input.GetButtonUp("Fire1"))
+        } else if (Input.GetButtonUp("Fire1") || (!Input.GetButton("Fire1") && hj.useMotor))
         {
             onMotorEnd?.Invoke();
             hj.useMotor = false;
-        }        
+        }
+        
     }
 
     #endregion
