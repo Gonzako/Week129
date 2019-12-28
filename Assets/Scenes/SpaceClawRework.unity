@@ -246,7 +246,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31990
+  m_Name: pb_Mesh42150
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -985,8 +985,8 @@ HingeJoint:
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
-    targetVelocity: 10
-    force: 10
+    targetVelocity: -200
+    force: 50
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
@@ -2055,7 +2055,7 @@ HingeJoint:
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
-    targetVelocity: 20
+    targetVelocity: -400
     force: 50
     freeSpin: 0
   m_UseLimits: 1
@@ -3108,8 +3108,8 @@ HingeJoint:
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
-    targetVelocity: 10
-    force: 10
+    targetVelocity: 200
+    force: 50
     freeSpin: 0
   m_UseLimits: 1
   m_Limits:
@@ -3369,7 +3369,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31974
+  m_Name: pb_Mesh42130
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3532,7 +3532,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh31938
+  m_Name: pb_Mesh42090
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3745,7 +3745,7 @@ HingeJoint:
     targetPosition: 0
   m_UseMotor: 0
   m_Motor:
-    targetVelocity: 20
+    targetVelocity: 400
     force: 50
     freeSpin: 0
   m_UseLimits: 1
@@ -4190,7 +4190,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32016
+  m_Name: pb_Mesh42180
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
