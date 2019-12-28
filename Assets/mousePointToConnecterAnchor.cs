@@ -36,7 +36,7 @@ public class mousePointToConnecterAnchor : MonoBehaviour
     void FixedUpdate()
     {
         var tempVect = (Vector3)(Input.mousePosition);
-        tempVect.z = 10;
+        tempVect.z = -Camera.main.transform.position.z;
 
         tempVect = Camera.main.ScreenToWorldPoint(tempVect);
 
