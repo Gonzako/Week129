@@ -35,7 +35,12 @@ public class mousePointToConnecterAnchor : MonoBehaviour
  
     void FixedUpdate()
     {
-        springJoint.connectedAnchor = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        var tempVect = (Vector3)(Input.mousePosition);
+        tempVect.z = 10;
+
+        tempVect = Camera.main.ScreenToWorldPoint(tempVect);
+
+        springJoint.connectedAnchor = tempVect;
     }
 
     #endregion
