@@ -31,8 +31,10 @@ public class pickableObjectSettingsEnforce : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         var constraints = new RigidbodyConstraints();
-        constraints 
-        rb.constraints
+        constraints = RigidbodyConstraints.FreezePositionZ;
+
+        rb.constraints = constraints;
+        transform.position = (Vector2)transform.position;
     }
  
     void FixedUpdate()
