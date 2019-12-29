@@ -348,8 +348,5 @@ MonoBehaviour:
   m_notes: 
   m_onEnterShowViews: []
   m_onEnterHideViews: []
-  m_onExitShowViews:
-  - Category: Main Game
-    InstantAction: 0
-    Name: Pause Menu
+  m_onExitShowViews: []
   m_onExitHideViews: []
