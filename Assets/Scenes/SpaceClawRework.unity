@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1509,6 +1509,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3485092505055993529, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8181789ab4ee0434a95762de09c6aee5, type: 2}
     - target: {fileID: 3485092505055993530, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_Mesh
@@ -1524,6 +1529,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1295352108}
+    - target: {fileID: 3485092505737129777, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8181789ab4ee0434a95762de09c6aee5, type: 2}
     - target: {fileID: 3485092505737129778, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_Mesh
@@ -1539,6 +1549,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1510501843}
+    - target: {fileID: 3485092505839259053, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8181789ab4ee0434a95762de09c6aee5, type: 2}
     - target: {fileID: 3485092505839259054, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_Mesh
@@ -1554,6 +1569,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1501663258}
+    - target: {fileID: 3485092506396248425, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8181789ab4ee0434a95762de09c6aee5, type: 2}
     - target: {fileID: 3485092506396248426, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_Mesh
