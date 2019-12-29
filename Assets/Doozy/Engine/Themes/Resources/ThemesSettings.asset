@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ThemesSettings
   m_EditorClassIdentifier: 
   database: {fileID: 11400000, guid: 6912d048791656146a107b0a54e784f9, type: 2}
-  AutoSave: 1
+  AutoSave: 0
