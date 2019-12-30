@@ -7,6 +7,7 @@
  
 using UnityEngine;
  
+[RequireComponent(typeof(Rigidbody), typeof(Collider)), ExecuteInEditMode]
 public class pickableObjectSettingsEnforce : MonoBehaviour
 {
     #region Public Fields
@@ -37,11 +38,15 @@ public class pickableObjectSettingsEnforce : MonoBehaviour
         transform.position = (Vector2)transform.position;
     }
  
-    void FixedUpdate()
+    void Update()
     {
+        rb.useGravity = false;
+        transform.position = (Vector2)transform.position;
+
+
     }
 
     #endregion
-    #endif
- 
+#endif
+
 }
