@@ -934,7 +934,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367810178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.33, y: 2.53, z: -1.31}
+  m_LocalPosition: {x: -12.33, y: 2.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -956,9 +956,9 @@ MonoBehaviour:
   bottomRange: 10
   topRange: 100
   boxVelocity:
-  - {fileID: 8300000, guid: 399b7fc027775441eb654e42f596145a, type: 3}
-  - {fileID: 8300000, guid: a37c4177178a24520a77a38e36970326, type: 3}
-  - {fileID: 8300000, guid: f29a30e7673624e7497108bab534e9f0, type: 3}
+  - {fileID: 8300000, guid: a922a06a137e5470088beca78a2dd0ac, type: 3}
+  - {fileID: 8300000, guid: f3162f01d38394ac894232ca4aed658a, type: 3}
+  - {fileID: 8300000, guid: 7f65cb18182fa4f57adbc2e8a82aaebf, type: 3}
 --- !u!82 &1367810186
 AudioSource:
   m_ObjectHideFlags: 0
