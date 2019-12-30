@@ -5206,6 +5206,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpaceXBox
       objectReference: {fileID: 0}
+    - target: {fileID: 3114945353991611014, guid: 0c8d42c1ceb150a478529298bd6b8867,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3759312849794173732, guid: 0c8d42c1ceb150a478529298bd6b8867,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5260,6 +5265,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 63.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4353601813981789330, guid: 0c8d42c1ceb150a478529298bd6b8867,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c8d42c1ceb150a478529298bd6b8867, type: 3}
