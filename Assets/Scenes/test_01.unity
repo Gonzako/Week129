@@ -952,12 +952,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce0e1cf75cf0a485eaa47d6fa78a7acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  collisionRestTime: 0.1
   bottomRange: 10
-  middleRange: 30
   topRange: 100
   boxVelocity:
   - {fileID: 8300000, guid: 399b7fc027775441eb654e42f596145a, type: 3}
-  - {fileID: 8300000, guid: 519a9f02b52884b84bda41a8e81e39bd, type: 3}
+  - {fileID: 8300000, guid: a37c4177178a24520a77a38e36970326, type: 3}
   - {fileID: 8300000, guid: f29a30e7673624e7497108bab534e9f0, type: 3}
 --- !u!82 &1367810186
 AudioSource:
