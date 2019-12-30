@@ -10,7 +10,7 @@ public class CollidingBox : MonoBehaviour
 
 	AudioSource audiosource;
     [SerializeField]
-    int bottomRange = 10, middleRange = 30, topRange = 100;
+    int bottomRange = 10, topRange = 30;
 
 	public AudioClip[] boxVelocity; 
 
@@ -37,13 +37,13 @@ public class CollidingBox : MonoBehaviour
                 audiosource.Play();
             }
 
-            else if (collision.relativeVelocity.magnitude > bottomRange && collision.relativeVelocity.magnitude < middleRange)
+            else if (collision.relativeVelocity.magnitude > bottomRange && collision.relativeVelocity.magnitude < topRange)
             {
                 audiosource.clip = boxVelocity[1];
                 audiosource.Play();
             }
 
-            else if (collision.relativeVelocity.magnitude > middleRange && collision.relativeVelocity.magnitude < topRange)
+            else if (collision.relativeVelocity.magnitude > topRange /*&& collision.relativeVelocity.magnitude < topRange*/)
             {
                 audiosource.clip = boxVelocity[2];
                 audiosource.Play();
