@@ -5,9 +5,11 @@ using UnityEngine;
 public class CollidingBox : MonoBehaviour
 {
 	AudioSource audiosource; 
+	public AudioClip[] boxVelocity; 
+
     void Start()
     {
-		audiosource = GetComponent<AudioSource> (); 
+		audiosource = GetComponent<AudioSource>(); 
         
     }
 
@@ -19,7 +21,24 @@ public class CollidingBox : MonoBehaviour
 
 	void OnCollisionEnter(Collision collision)
 	{
-		audiosource.Play (); 
+
+		if (collision.relativeVelocity.magnitude < 10)
+		{
+			audiosource.clip = boxVelocity[0]; 
+			audiosource.Play(); 
+		}
+
+		else if (collision.relativeVelocity.magnitude > 20 && collision.relativeVelocity.magnitude < 30)
+		{
+			audiosource.clip = boxVelocity[1]; 
+			audiosource.Play(); 
+		}
+
+		else if (collision.relativeVelocity.magnitude > 30 && collision.relativeVelocity.magnitude < 100)
+		{
+			audiosource.clip = boxVelocity[2]; 
+			audiosource.Play(); 
+		}
 	
 	}
 
