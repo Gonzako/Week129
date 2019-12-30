@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class CollidingBox : MonoBehaviour
 {
-	AudioSource audiosource; 
+    [SerializeField]
+    float collisionRestTime = 0.1f;
+    float collisionRestCounter = 0;
+
+	AudioSource audiosource;
+    [SerializeField]
+    int bottomRange = 10, middleRange = 30, topRange = 100;
+
 	public AudioClip[] boxVelocity; 
 
     void Start()
@@ -22,23 +29,28 @@ public class CollidingBox : MonoBehaviour
 	void OnCollisionEnter(Collision collision)
 	{
 
-		if (collision.relativeVelocity.magnitude < 10)
-		{
-			audiosource.clip = boxVelocity[0]; 
-			audiosource.Play(); 
-		}
+        if (collisionRestCounter < Time.time)
+        {
+            if (collision.relativeVelocity.magnitude < bottomRange)
+            {
+                audiosource.clip = boxVelocity[0];
+                audiosource.Play();
+            }
 
-		else if (collision.relativeVelocity.magnitude > 20 && collision.relativeVelocity.magnitude < 30)
-		{
-			audiosource.clip = boxVelocity[1]; 
-			audiosource.Play(); 
-		}
+            else if (collision.relativeVelocity.magnitude > bottomRange && collision.relativeVelocity.magnitude < middleRange)
+            {
+                audiosource.clip = boxVelocity[1];
+                audiosource.Play();
+            }
 
-		else if (collision.relativeVelocity.magnitude > 30 && collision.relativeVelocity.magnitude < 100)
-		{
-			audiosource.clip = boxVelocity[2]; 
-			audiosource.Play(); 
-		}
+            else if (collision.relativeVelocity.magnitude > middleRange && collision.relativeVelocity.magnitude < topRange)
+            {
+                audiosource.clip = boxVelocity[2];
+                audiosource.Play();
+            }
+
+            collisionRestCounter = Time.time + collisionRestTime;
+        }
 	
 	}
 
