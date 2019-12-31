@@ -34,7 +34,7 @@ public class lightChanger : MonoBehaviour
     #endregion
 
 
-    #if true
+    #if false
     #region Unity API
 
     void Start()
