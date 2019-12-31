@@ -4,10 +4,11 @@ using UnityEngine;
 
 
 [RequireComponent(typeof(AudioSource), typeof(AudioLowPassFilter), typeof(HingeJoint))]
-public class ClawSound : MonoBehaviour
+public class ClawSounds : MonoBehaviour
 {
+    public AudioClip[] adcs; 
 	HingeJoint claw; 
-	AudioSource audiosource;
+	AudioSource[] audiosource;
 	AudioLowPassFilter filter;
     [SerializeField]
     float bottomRange = -500, topRange = 500;
@@ -17,11 +18,19 @@ public class ClawSound : MonoBehaviour
     void Start()
     {
 		claw = GetComponent<HingeJoint> (); 
-		audiosource = GetComponent<AudioSource> ();
+		audiosource = GetComponents<AudioSource> ();
 		filter = GetComponent<AudioLowPassFilter> (); 
 
-		filter.cutoffFrequency = cutoffFrec; 
-        
+		filter.cutoffFrequency = cutoffFrec;
+        for (int i = 0; i < audiosource.Length; i++)
+        {
+            var j = i;
+            if(i > adcs.Length)
+            {
+                j = i % adcs.Length;
+            }
+            audiosource[i].clip = adcs[j];
+        }
     }
 
     // Update is called once per frame
@@ -34,8 +43,11 @@ public class ClawSound : MonoBehaviour
 	{
 		if (claw.velocity < bottomRange || claw.velocity > topRange)
 		{ 
-			audiosource.pitch = pitchFinder();  
-			audiosource.Play(); 
+			foreach(AudioSource n in audiosource)
+            {
+                n.pitch = pitchFinder();
+                n.Play();
+            }
 		}
 	}
 
@@ -43,6 +55,4 @@ public class ClawSound : MonoBehaviour
 	{
         return Random.Range(1.0f, 2.0f); 
 	}
-
-
 }
