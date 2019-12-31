@@ -11,6 +11,7 @@ using UnityEngine;
 public class pickableObjectSettingsEnforce : MonoBehaviour
 {
     #region Public Fields
+    float zOffset = 0;
     #endregion
 
     #region Private Fields
@@ -41,7 +42,7 @@ public class pickableObjectSettingsEnforce : MonoBehaviour
     void Update()
     {
         rb.useGravity = false;
-        transform.position = (Vector2)transform.position;
+        transform.position = (Vector3)((Vector2)transform.position) + Vector3.forward * zOffset;
 
 
     }
