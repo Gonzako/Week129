@@ -16,7 +16,7 @@ public class volumeSettingEnforcer : MonoBehaviour
 
     #region Private Fields
     [SerializeField]
-    IntVariable soundClass, masterVolume;
+    FloatVariable soundClass, masterVolume;
 
     [SerializeField]
     AudioSource adcs;

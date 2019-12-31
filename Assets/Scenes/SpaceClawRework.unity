@@ -3332,21 +3332,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3485092504851592804}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1011015471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011015470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c25f8093a5bfd6b49b81b847d6c9ed5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundClass: {fileID: 0}
-  masterVolume: {fileID: 0}
-  adcs: {fileID: 0}
 --- !u!82 &1011015472
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3443,6 +3428,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1011015473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011015470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25f8093a5bfd6b49b81b847d6c9ed5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundClass: {fileID: 11400000, guid: f1ff014a915a46542b21a1c68102f4be, type: 2}
+  masterVolume: {fileID: 11400000, guid: ca526a4f04befbb40bbc7ad0cca5053a, type: 2}
+  adcs: {fileID: 1011015472}
 --- !u!1 &1171565082
 GameObject:
   m_ObjectHideFlags: 0
@@ -5660,6 +5660,21 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1657892352}
+    - target: {fileID: 3485092505460488347, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_Drag
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092505460488544, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: mouseOffset.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092505460488544, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: mouseOffset
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3485092505460488550, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_Mesh

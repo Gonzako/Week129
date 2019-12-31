@@ -11,6 +11,8 @@ using UnityEngine;
 public class mousePointToConnecterAnchor : MonoBehaviour
 {
     #region Public Fields
+    [SerializeField]
+    float mouseOffset;
     #endregion
 
     #region Private Fields
@@ -37,9 +39,9 @@ public class mousePointToConnecterAnchor : MonoBehaviour
     {
         var tempVect = (Vector3)(Input.mousePosition);
         tempVect.z = -Camera.main.transform.position.z;
-
+ 
         tempVect = Camera.main.ScreenToWorldPoint(tempVect);
-
+        tempVect += -transform.right * mouseOffset;
         springJoint.connectedAnchor = tempVect;
     }
 
