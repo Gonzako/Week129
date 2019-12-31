@@ -41,8 +41,7 @@ public class ClawSound : MonoBehaviour
 
 	float pitchFinder()
 	{
-		float randomNumber = Random.Range (1.0f, 2.0f); 
-		return randomNumber; 
+        return Random.Range(1.0f, 2.0f); 
 	}
 
 
