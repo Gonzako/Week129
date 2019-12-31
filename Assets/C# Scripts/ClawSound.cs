@@ -2,12 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[RequireComponent(typeof(AudioSource), typeof(AudioLowPassFilter), typeof(HingeJoint))]
 public class ClawSound : MonoBehaviour
 {
 	HingeJoint claw; 
 	AudioSource audiosource;
-	AudioLowPassFilter filter; 
-
+	AudioLowPassFilter filter;
+    [SerializeField]
+    float bottomRange = -500, topRange = 500;
+    [SerializeField]
+    int cutoffFrec = 9720; 
 
     void Start()
     {
@@ -15,7 +20,7 @@ public class ClawSound : MonoBehaviour
 		audiosource = GetComponent<AudioSource> ();
 		filter = GetComponent<AudioLowPassFilter> (); 
 
-		filter.cutoffFrequency = 9720; 
+		filter.cutoffFrequency = cutoffFrec; 
         
     }
 
@@ -27,7 +32,7 @@ public class ClawSound : MonoBehaviour
 
 	void velocityCheck()
 	{
-		if (claw.velocity < -500 || claw.velocity > 500)
+		if (claw.velocity < bottomRange || claw.velocity > topRange)
 		{ 
 			audiosource.pitch = pitchFinder();  
 			audiosource.Play(); 
