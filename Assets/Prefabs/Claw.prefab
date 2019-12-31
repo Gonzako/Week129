@@ -1071,7 +1071,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 816589b85eec24302a04c11b8bebf9a4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8367815c008f20441956f4992f7d429b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 0
@@ -1172,7 +1172,7 @@ AudioLowPassFilter:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.44156435
+      value: 0.37030467
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1194,9 +1194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 184ee710ce83c4a3e998f1016eafbcc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bottomRange: -500
-  topRange: 500
-  cutoffFrec: 9720
+  bottomRange: -350
+  topRange: 350
+  cutoffFrec: 7260
 --- !u!1 &3485092505737129782
 GameObject:
   m_ObjectHideFlags: 0
