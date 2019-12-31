@@ -3332,6 +3332,21 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3485092504851592804}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1011015471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011015470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25f8093a5bfd6b49b81b847d6c9ed5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundClass: {fileID: 0}
+  masterVolume: {fileID: 0}
+  adcs: {fileID: 0}
 --- !u!82 &1011015472
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5778,20 +5793,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpaceXBox
       objectReference: {fileID: 0}
-    - target: {fileID: 175810562475555127, guid: 0c8d42c1ceb150a478529298bd6b8867,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3759312849794173732, guid: 0c8d42c1ceb150a478529298bd6b8867,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.39
+      value: -13.61
       objectReference: {fileID: 0}
     - target: {fileID: 3759312849794173732, guid: 0c8d42c1ceb150a478529298bd6b8867,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.33
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 3759312849794173732, guid: 0c8d42c1ceb150a478529298bd6b8867,
         type: 3}
@@ -5838,20 +5848,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 63.09
       objectReference: {fileID: 0}
-    - target: {fileID: 3759312849794173732, guid: 0c8d42c1ceb150a478529298bd6b8867,
+    - target: {fileID: 4353601813981789330, guid: 0c8d42c1ceb150a478529298bd6b8867,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 3759312849794173732, guid: 0c8d42c1ceb150a478529298bd6b8867,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 3759312849794173732, guid: 0c8d42c1ceb150a478529298bd6b8867,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 45
+      propertyPath: m_Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c8d42c1ceb150a478529298bd6b8867, type: 3}

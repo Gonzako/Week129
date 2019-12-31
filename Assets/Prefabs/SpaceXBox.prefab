@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 175810562475555127}
   m_LocalRotation: {x: -0.20998198, y: 0.65457845, z: 0.6454547, w: 0.33290073}
   m_LocalPosition: {x: -12.13, y: 1.88, z: 0.65}
-  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_LocalScale: {x: 45, y: 45, z: 45}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,6 +95,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f49d5fc3eef50b47999c593c739a59b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zOffset: 0
 --- !u!65 &8165439334671097914
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -144,7 +145,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 1.4240408
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -236,6 +237,6 @@ MonoBehaviour:
   bottomRange: 10
   topRange: 100
   boxVelocity:
-  - {fileID: 8300000, guid: 399b7fc027775441eb654e42f596145a, type: 3}
-  - {fileID: 8300000, guid: a37c4177178a24520a77a38e36970326, type: 3}
-  - {fileID: 8300000, guid: f29a30e7673624e7497108bab534e9f0, type: 3}
+  - {fileID: 8300000, guid: a922a06a137e5470088beca78a2dd0ac, type: 3}
+  - {fileID: 8300000, guid: f3162f01d38394ac894232ca4aed658a, type: 3}
+  - {fileID: 8300000, guid: 7f65cb18182fa4f57adbc2e8a82aaebf, type: 3}

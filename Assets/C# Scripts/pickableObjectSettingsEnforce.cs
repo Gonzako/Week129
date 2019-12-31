@@ -11,7 +11,8 @@ using UnityEngine;
 public class pickableObjectSettingsEnforce : MonoBehaviour
 {
     #region Public Fields
-    float zOffset = 0;
+
+    public float zOffset = 0;
     #endregion
 
     #region Private Fields
