@@ -2774,7 +2774,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85396
+  m_Name: pb_Mesh108032
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3430,7 +3430,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85634
+  m_Name: pb_Mesh108274
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4050,6 +4050,18 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.764
+      objectReference: {fileID: 0}
+    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
+      propertyPath: m_Pitch
+      value: 1.14
+      objectReference: {fileID: 0}
     - target: {fileID: 891739341, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
       propertyPath: m_Size.x
       value: 5.489221
@@ -4134,7 +4146,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85836
+  m_Name: pb_Mesh108458
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6837,7 +6849,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85700
+  m_Name: pb_Mesh108340
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7000,7 +7012,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85746
+  m_Name: pb_Mesh108368
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9575,7 +9587,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85426
+  m_Name: pb_Mesh108062
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11617,6 +11629,18 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 399b7fc027775441eb654e42f596145a, type: 3}
+    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
+      propertyPath: m_Volume
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 0.764
+      objectReference: {fileID: 0}
+    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
+      propertyPath: m_Pitch
+      value: 1.14
+      objectReference: {fileID: 0}
     - target: {fileID: 5980118715481106398, guid: 93f17d3615c24f344a6eb1b69463e728,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11698,7 +11722,7 @@ PrefabInstance:
     - target: {fileID: 3485092504713401271, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.43
+      value: 0.36
       objectReference: {fileID: 0}
     - target: {fileID: 3485092504713401271, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
@@ -11749,6 +11773,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092504713401271, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092504713401271, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3485092505055993530, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
@@ -11862,12 +11896,12 @@ PrefabInstance:
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.56
+      value: -11.473
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.18
+      value: 4.375
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
@@ -11918,6 +11952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: luggage2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772813598746589681, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
+        type: 3}
+      propertyPath: topRange
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363da3ee034ffe741bfb4c74a6d0c71e, type: 3}

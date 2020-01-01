@@ -199,7 +199,6 @@ GameObject:
   - component: {fileID: 5945395701004061980}
   - component: {fileID: 6606901092791597382}
   - component: {fileID: 4772813598746589681}
-  - component: {fileID: 8296172668457385986}
   m_Layer: 0
   m_Name: luggage2
   m_TagString: Untagged
@@ -275,7 +274,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -371,23 +370,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce0e1cf75cf0a485eaa47d6fa78a7acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collisionRestTime: 0.3
+  collisionRestTime: 1
   bottomRange: 10
-  topRange: 100
+  topRange: 50
   boxVelocity:
   - {fileID: 8300000, guid: a922a06a137e5470088beca78a2dd0ac, type: 3}
   - {fileID: 8300000, guid: f3162f01d38394ac894232ca4aed658a, type: 3}
   - {fileID: 8300000, guid: 7f65cb18182fa4f57adbc2e8a82aaebf, type: 3}
---- !u!165 &8296172668457385986
-AudioHighPassFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2423962399740793912}
-  m_Enabled: 1
-  m_CutoffFrequency: 6000
-  m_HighpassResonanceQ: 1
 --- !u!1 &2516149237877321362
 GameObject:
   m_ObjectHideFlags: 0

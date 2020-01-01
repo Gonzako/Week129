@@ -40,8 +40,9 @@ public class onScore : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         changer.ChangeColour();
-        Destroy(other.attachedRigidbody.gameObject, 0.3f);
+        Destroy(other.attachedRigidbody.gameObject);
         other.attachedRigidbody.detectCollisions = false;
+        sound.pitch = Random.Range(1f, 3f);
             sound.Play();
         changer.colorToChangeTo = Random.ColorHSV();
         changer.emissionToChangeTo = Random.ColorHSV();
