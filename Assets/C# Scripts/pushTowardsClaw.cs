@@ -33,7 +33,8 @@ public class pushTowardsClaw : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Rigidbody otherRb = other.GetComponent<Rigidbody>();
+      
+        Rigidbody otherRb = other.attachedRigidbody;
         Vector3 direction = positionToPushTowards.position - other.transform.position;
         direction = direction.normalized;
         otherRb.AddForce(direction * forceToAdd);

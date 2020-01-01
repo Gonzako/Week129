@@ -42,7 +42,7 @@ public class luggageSpawnerCode : MonoBehaviour
             whatevs.position = transform.position;
             cooldownTimer = Time.time + cooldownTime;
             whatevs.GetComponent<Rigidbody>().AddForce((Random.insideUnitCircle * Random.Range(0, randomMaxPushForce))/Time.deltaTime);
-
+            whatevs.GetComponent<Rigidbody>().AddTorque(Random.insideUnitSphere/Time.deltaTime);
         }
     }
 

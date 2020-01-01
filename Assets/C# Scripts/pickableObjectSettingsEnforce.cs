@@ -7,7 +7,7 @@
  
 using UnityEngine;
  
-[RequireComponent(typeof(Rigidbody), typeof(Collider)), ExecuteInEditMode]
+[RequireComponent(typeof(Rigidbody)), ExecuteInEditMode]
 public class pickableObjectSettingsEnforce : MonoBehaviour
 {
     #region Public Fields
