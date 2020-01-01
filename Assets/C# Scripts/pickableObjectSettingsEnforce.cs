@@ -42,7 +42,7 @@ public class pickableObjectSettingsEnforce : MonoBehaviour
  
     void Update()
     {
-        rb.useGravity = false;
+        rb.useGravity = true;
         transform.position = (Vector3)((Vector2)transform.position) + Vector3.forward * zOffset;
 
 
