@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2774,7 +2774,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108032
+  m_Name: pb_Mesh-1440
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4046,38 +4046,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Volume
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
-      value: 0.764
-      objectReference: {fileID: 0}
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Pitch
-      value: 1.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 891739341, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Size.x
-      value: 5.489221
-      objectReference: {fileID: 0}
-    - target: {fileID: 891739341, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Center.x
-      value: 0.93184423
-      objectReference: {fileID: 0}
-    - target: {fileID: 891739341, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Center.y
-      value: -0.26072264
-      objectReference: {fileID: 0}
-    - target: {fileID: 891739341, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Center.z
-      value: 0.04601955
-      objectReference: {fileID: 0}
     - target: {fileID: 5980118715481106398, guid: 93f17d3615c24f344a6eb1b69463e728,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9587,7 +9555,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108062
+  m_Name: pb_Mesh-1436
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11625,22 +11593,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 399b7fc027775441eb654e42f596145a, type: 3}
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Volume
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
-      value: 0.764
-      objectReference: {fileID: 0}
-    - target: {fileID: 278200568, guid: 93f17d3615c24f344a6eb1b69463e728, type: 3}
-      propertyPath: m_Pitch
-      value: 1.14
-      objectReference: {fileID: 0}
     - target: {fileID: 5980118715481106398, guid: 93f17d3615c24f344a6eb1b69463e728,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11789,6 +11741,21 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1657892352}
+    - target: {fileID: 3485092505055993533, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.4947645
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092505055993533, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.109996796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092505055993533, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_Motor.force
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3485092505055993535, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_Mesh
@@ -11814,6 +11781,21 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 442445522}
+    - target: {fileID: 3485092505737129788, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.4947645
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092505737129788, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.18000126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485092505737129788, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
+        type: 3}
+      propertyPath: m_Motor.force
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3485092505839259041, guid: 2d170b4ba9e3d2f4096f848a5a014e79,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
@@ -11911,22 +11893,22 @@ PrefabInstance:
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.1543248
+      value: 0.058523804
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5724297
+      value: 0.94023937
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.11075073
+      value: -0.2607514
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.797648
+      value: 0.21103008
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
@@ -11936,12 +11918,12 @@ PrefabInstance:
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -21.9
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 71.33
+      value: 154.7
       objectReference: {fileID: 0}
     - target: {fileID: 1727408828269651499, guid: 363da3ee034ffe741bfb4c74a6d0c71e,
         type: 3}

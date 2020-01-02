@@ -847,6 +847,7 @@ GameObject:
   - component: {fileID: 891739341}
   - component: {fileID: 278200568}
   - component: {fileID: 278200567}
+  - component: {fileID: 725020788}
   m_Layer: 0
   m_Name: ContainerRotationFixed
   m_TagString: Untagged
@@ -889,8 +890,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0306554, y: 7.260646, z: 14.956906}
-  m_Center: {x: 2.6611257, y: -0.26072258, z: 0.04601955}
+  m_Size: {x: 2.4347188, y: 7.260646, z: 14.956906}
+  m_Center: {x: 2.459095, y: -0.2607226, z: 0.04601955}
 --- !u!82 &278200568
 AudioSource:
   m_ObjectHideFlags: 0
@@ -901,10 +902,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f29a30e7673624e7497108bab534e9f0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 399b7fc027775441eb654e42f596145a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.25
+  m_Pitch: 1.14
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -977,7 +978,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.764
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1000,6 +1001,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changer: {fileID: 2054677432}
+--- !u!165 &725020788
+AudioHighPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7252765249394988493}
+  m_Enabled: 1
+  m_CutoffFrequency: 8975
+  m_HighpassResonanceQ: 1
 --- !u!1 &8982168157105176259
 GameObject:
   m_ObjectHideFlags: 0
